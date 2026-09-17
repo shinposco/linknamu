@@ -16,7 +16,7 @@ export default function Profile({ name, bio, avatarUrl }: ProfileProps) {
             alt={name}
             width={160}
             height={160}
-            className="h-full w-full object-cover"
+            className="h-full w-full object-cover object-top"
           />
         ) : (
           <div className="flex h-full w-full items-center justify-center text-5xl font-semibold text-gray-400 dark:text-neutral-500">
