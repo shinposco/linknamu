@@ -25,9 +25,15 @@ export default function RootLayout({
   return (
     <html lang="ko" suppressHydrationWarning>
       <head>
+        <link
+          rel="stylesheet"
+          as="style"
+          crossOrigin="anonymous"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css"
+        />
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
-      <body className="min-h-screen bg-gray-50 text-gray-900 antialiased transition-colors dark:bg-neutral-950 dark:text-gray-100">
+      <body className="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50 to-orange-100 bg-fixed font-sans text-gray-900 antialiased transition-colors dark:from-neutral-950 dark:via-stone-950 dark:to-neutral-900 dark:text-gray-100">
         {children}
       </body>
     </html>

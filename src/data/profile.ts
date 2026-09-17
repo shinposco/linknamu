@@ -1,7 +1,7 @@
 export const profile = {
   name: "신명균",
   bio: "HyREX 개발자",
-  avatarUrl: "",
+  avatarUrl: "/profile.jpg",
 };
 
 export type LinkItem = {
@@ -11,7 +11,7 @@ export type LinkItem = {
 };
 
 export const links: LinkItem[] = [
-  { id: "github", title: "GitHub", url: "https://github.com/username" },
-  { id: "linkedin", title: "LinkedIn", url: "https://linkedin.com/in/username" },
-  { id: "blog", title: "Blog", url: "https://yourblog.com" },
+  { id: "github", title: "GitHub", url: "https://github.com/shinposco" },
+  { id: "instagram", title: "Instagram", url: "https://www.instagram.com/shinmk660630" },
+  { id: "email", title: "Email", url: "mailto:shinposco@naver.com" },
 ];

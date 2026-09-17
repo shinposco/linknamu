@@ -7,7 +7,17 @@ const config: Config = {
     "./src/components/**/*.{ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          "Pretendard",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "system-ui",
+          "sans-serif",
+        ],
+      },
+    },
   },
   plugins: [],
 };
