@@ -1,7 +1,7 @@
 export const profile = {
   name: "신명균",
   bio: "HyREX 개발자",
-  avatarUrl: "/profile.jpg",
+  avatarUrl: "/my_photo.jpg",
 };
 
 export type LinkItem = {
